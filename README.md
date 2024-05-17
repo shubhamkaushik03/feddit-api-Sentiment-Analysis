@@ -1,7 +1,7 @@
-#Introduction
+## Introduction
 The process of building a RESTful API using Flask for fetching comments from different sources, performing sentiment analysis on them, and providing the results to users. The API allows users to specify the source of comments (local sample data or an external API), apply time range filters, and sort the results by sentiment polarity.
 
-###prerequisite
+### prerequisite
 
 **install the dependency using **
   -  _pip install requirement.txt_
@@ -19,19 +19,24 @@ Note: As you given the docker-compose.yml when I run the container so using that
   6. Filter comments by a specific time range
   7. Sort the results by the comments polarity score
 
-####ENDPOINTS
+#### ENDPOINTS
 http://localhost:5000/api/v1/comments?subfeddit=gaming
 
 **To filter by time range:**
 http://localhost:5000/api/v1/comments?subfeddit=gaming&time_range=2024-05-15T12:00:00Z,2024-05-15T13:00:00Z
 
+![image](https://github.com/shubhamkaushik03/feddit-api-Sentiment-Analysis/assets/93450340/5fc7ca73-9087-4a2d-8b42-8b438ad4ae4a)
+
 **To sort by polarity score:**
 http://localhost:5000/api/v1/comments?subfeddit=gaming&sort_by_polarity=true
+
+<img width="208" alt="image" src="https://github.com/shubhamkaushik03/feddit-api-Sentiment-Analysis/assets/93450340/842b09a1-6ab8-4b96-bc29-81c0e7c657d3">
+
 
 **using api endpoint like reddit which running locallly**
 http://localhost:5000/api/v1/comments?data_source_api=http://localhost:8080/api/v1/version
 
-![image](https://github.com/shubhamkaushik03/feddit-api-Sentiment-Analysis/assets/93450340/5fc7ca73-9087-4a2d-8b42-8b438ad4ae4a)
+
 
 
 
