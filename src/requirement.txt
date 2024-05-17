@@ -1,1 +1,4 @@
-
+Flask==2.0.2
+textblob==0.15.3
+requests==2.26.0
+werkzeug==2.0.2
