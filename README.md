@@ -43,13 +43,13 @@ _
 2. feddit container state showing unhealthy
 3. Output when i tried to fetch using api from feddit app
 
-**$ curl -X GET "http://localhost:5000/comments?subfeddit=gaming"
+ curl -X GET "http://localhost:5000/comments?subfeddit=gaming"
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100    54  100    54    0     0    207      0 --:--:-- --:--:-- --:--:--   207{
   "error": "Failed to fetch comments from Feddit"
-}**
+}
 
 
 
